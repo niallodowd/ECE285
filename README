@@ -1,0 +1,18 @@
+Description 
+===================================
+
+
+1		TRADITIONAL AUTOENCODERS 
+
+Requirements
++++++++++++++++++++++++++++++++++++
+
+Install Packages:
+‘keras’ using ‘pip install keras’
+
+Files
++++++++++++++++++++++++++++++++++++
+
+small_56x56_celebs_300.npy 	- 	Face images sample dataset
+
+traditional_AE_sampleTrain.ipynb 	- 	Sample training demo and script to recreate figure 3, and show sample reconstruction 
