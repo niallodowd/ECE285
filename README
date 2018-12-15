@@ -1,18 +1,40 @@
 Description 
 ===================================
 
-
-1		TRADITIONAL AUTOENCODERS 
+Use small_56x56_celebs_300.npy file for demo. We have four different architectures, namely traditional AE, WGAN, VAE and CAE. Please find regarding 
+files for demo purposes.
 
 Requirements
 +++++++++++++++++++++++++++++++++++
 
+Use Python 2 for demo. 
+
 Install Packages:
-‘keras’ using ‘pip install keras’
+pip install keras
+pip install --user scikit-image
+pip install Pillow
+
+Disclaimer: Depending on your already installed packages, you may need some more packages. These were the ones we needed. 
 
 Files
 +++++++++++++++++++++++++++++++++++
 
+We trained our networks. You can find the weights below and load them for testing. 
+
 small_56x56_celebs_300.npy 	- 	Face images sample dataset
 
 traditional_AE_sampleTrain.ipynb 	- 	Sample training demo and script to recreate figure 3, and show sample reconstruction 
+
+model_WGAN_VGG.py - WGAN architecture
+
+model_VAE.py - VAE architecture
+
+model_CAE.py - CAE architecture
+
+cae_weights.h5 - Trained parameters for CAE
+
+dae_weights.h5 - Trained parameters for traditional autoencoders
+
+vae_weights.h5 - Trained parameters for VAE
+
+wgan_weights - Trained parameters for WGAN
