@@ -21,7 +21,7 @@ We trained our networks. You can find the weights below and load them for testin
 
 small_56x56_celebs_300.npy 	- 	Face images sample dataset
 
-traditional_AE_sampleTrain.ipynb 	- 	Demo for traditional autoencoders - Python 2 
+traditional_AE_sampleTrain.ipynb 	- 	Complete code for traditional autoencoders - Python 2 
 
 model_WGAN_VGG.py - WGAN architecture
 
@@ -39,10 +39,12 @@ test.zip - File containing images for demo-PLEASE UNZIP THIS BEFORE RUNNING!
 
 WGAN_VGG.ipynb - Jupyter notebook containing complete code for training and testing of WGAN - Python 3
 
-vae_285.ipynb - Jupyter notebook containing complete code for training and testing of VAE - Python
+vae_285.ipynb - Jupyter notebook containing complete code for training and testing of VAE - Python 2
 
 cae_285.py - Complete code for training and testing of CAE (Python)
 
-demo_WGAN_VGG_final.ipynb - demo for WGAN - Python 
+demo_WGAN_VGG_final.ipynb - demo for WGAN - Python 3
 
 wgan_weights - Trained parameters for WGAN
+
+demo_CAE_TAE.ipynb - Demo for CAE and TAE - Python 2 
