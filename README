@@ -7,8 +7,6 @@ files for demo purposes.
 Requirements
 +++++++++++++++++++++++++++++++++++
 
-Use Python 2 for demo. 
-
 Install Packages:
 pip install keras
 pip install --user scikit-image
@@ -23,7 +21,7 @@ We trained our networks. You can find the weights below and load them for testin
 
 small_56x56_celebs_300.npy 	- 	Face images sample dataset
 
-traditional_AE_sampleTrain.ipynb 	- 	Sample training demo and script to recreate figure 3, and show sample reconstruction 
+traditional_AE_sampleTrain.ipynb 	- 	Demo for traditional autoencoders - Python 2 
 
 model_WGAN_VGG.py - WGAN architecture
 
@@ -37,12 +35,14 @@ dae_weights.h5 - Trained parameters for traditional autoencoders
 
 vae_weights.h5 - Trained parameters for VAE
 
-test.zip - File containing images for demo-PLEASE UNZIP THIS!
+test.zip - File containing images for demo-PLEASE UNZIP THIS BEFORE RUNNING!
 
-WGAN_VGG.ipynb - Jupyter notebook containing complete code for training and testing of WGAN
+WGAN_VGG.ipynb - Jupyter notebook containing complete code for training and testing of WGAN - Python 3
 
-vae_285.ipynb - Jupyter notebook containing complete code for training and testing of VAE
+vae_285.ipynb - Jupyter notebook containing complete code for training and testing of VAE - Python
 
 cae_285.py - Complete code for training and testing of CAE (Python)
 
+demo_WGAN_VGG_final.ipynb - demo for WGAN - Python 
 
+wgan_weights - Trained parameters for WGAN
