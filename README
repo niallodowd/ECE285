@@ -37,4 +37,4 @@ dae_weights.h5 - Trained parameters for traditional autoencoders
 
 vae_weights.h5 - Trained parameters for VAE
 
-wgan_weights - Trained parameters for WGAN
+wgan - Trained parameters for WGAN
