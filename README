@@ -37,4 +37,12 @@ dae_weights.h5 - Trained parameters for traditional autoencoders
 
 vae_weights.h5 - Trained parameters for VAE
 
-wgan - Trained parameters for WGAN
+test.zip - File containing images for demo-PLEASE UNZIP THIS!
+
+WGAN_VGG.ipynb - Jupyter notebook containing complete code for training and testing of WGAN
+
+vae_285.ipynb - Jupyter notebook containing complete code for training and testing of VAE
+
+cae_285.py - Complete code for training and testing of CAE (Python)
+
+
